@@ -9,8 +9,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
-
 @RestController
 public class UrlCheckController {
     private final String SITE_IS_UP = "Site is up!";
